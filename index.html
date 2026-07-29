@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Personal Arya Gunawan - IT Support, Front-End Developer, & Technology Enthusiast">
+    <meta name="keywords" content="Portfolio, Arya Gunawan, Web Developer, IT Support, Front-End, STMIK IKMI Cirebon">
+    <title>Arya Gunawan | Portfolio</title>
+    
+    <!-- TAMBAHKAN KODE FAVICON DI SINI -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <h2>AG</h2>
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+
+    <!-- Background Effects -->
+    <div class="bg-grid"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <!-- Navbar -->
+    <header id="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">Arya<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <div class="scroll-progress"></div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section-padding">
+        <div class="hero-content reveal fade-left">
+            <div class="badge">🚀 Welcome To My Portfolio</div>
+            <h1>Halo, Saya <br><span class="gradient-text">Arya Gunawan</span></h1>
+            <h2 class="typing-container">Seorang <span class="typing-text"></span><span class="cursor">|</span></h2>
+            <p>Saya berdedikasi untuk menciptakan solusi teknologi yang inovatif, dengan keahlian di bidang pengembangan web, analisis data, dan dukungan IT.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary ripple">View Projects</a>
+                <a href="assets/resume/CV_AryaGunawan.pdf" class="btn btn-outline ripple" target="_blank">Download CV</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/Aryagunawan26" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/aryagunawan26/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/aryaaaa.2" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/6282126455013" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="hero-image reveal fade-right">
+            <div class="img-box glass">
+                <img src="assets/Fotoarya.jpeg" alt="Arya Gunawan">
+            </div>
+            <!-- Floating Tech Icons -->
+            <div class="floating-icon icon-1"><i class="fab fa-html5"></i></div>
+            <div class="floating-icon icon-2"><i class="fab fa-css3-alt"></i></div>
+            <div class="floating-icon icon-3"><i class="fab fa-js"></i></div>
+            <div class="floating-icon icon-4"><i class="fab fa-python"></i></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <h2 class="section-title reveal fade-up">About <span class="gradient-text">Me</span></h2>
+        <div class="about-card glass reveal fade-up">
+            <div class="about-info">
+                <p><strong>Nama:</strong> Arya Gunawan</p>
+                <p><strong>Domisili:</strong> Cirebon, Jawa Barat</p>
+                <p><strong>Pendidikan:</strong> STMIK IKMI Cirebon</p>
+                <p><strong>Email:</strong> aryagunawan605@gmail.com</p>
+                <p><strong>Hobi:</strong> Bersepeda, Coding, Mini Soccer, Mendaki</p>
+            </div>
+            <div class="about-desc">
+                <p>Lulusan Teknik Informatika STMIK IKMI Cirebon dengan pengalaman 2 tahun sebagai Staff Tata Usaha. Memiliki kompetensi dalam administrasi, pengelolaan data, Microsoft Office, UI/ UX Design, dan pengembangan web. Berpengalaman memimpin organisasi sebagai Presiden Mahasiswa serta mengikuti Program Pertukaran Mahasiswa Merdeka Batch 4 sebagai Wakil Kepala Suku. Memiliki kemampuan komunikasi, kepemimpinan, kerja sama tim, dan problem solving yang baik.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="stats section-padding">
+        <div class="stats-grid">
+            <div class="stat-item glass reveal fade-up">
+                <h3 class="counter" data-target="2">0</h3><span>+</span>
+                <p>Tahun Pengalaman</p>
+            </div>
+            <div class="stat-item glass reveal fade-up" style="transition-delay: 0.1s">
+                <h3 class="counter" data-target="2">0</h3><span>+</span>
+                <p>Project Selesai</p>
+            </div>
+            <div class="stat-item glass reveal fade-up" style="transition-delay: 0.2s">
+                <h3 class="counter" data-target="10">0</h3><span>+</span>
+                <p>Sertifikat</p>
+            </div>
+            <div class="stat-item glass reveal fade-up" style="transition-delay: 0.3s">
+                <h3 class="counter" data-target="1000">0</h3><span>+</span>
+                <p>Jam Belajar</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Organization Section -->
+    <section id="experience" class="timeline-section section-padding">
+        <h2 class="section-title reveal fade-up">My <span class="gradient-text">Experience</span></h2>
+        <div class="timeline">
+            <!-- Pengalaman Kerja -->
+            <div class="timeline-item reveal fade-right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass">
+                    <h3>TK Islam Al Azhar 3 Cirebon</h3>
+                    <h4>Staff Tata Usaha</h4>
+                    <p class="timeline-date">Jul 2024 - Jul 2026</p>
+                    <p>Mengelola administrasi digital lebih dari 100 siswa menggunakan Microsoft Excel, menyusun laporan, serta mendukung digitalisasi administrasi sekolah.</p>
+                </div>
+            </div>
+            <!-- Pengalaman PMM -->
+            <div class="timeline-item reveal fade-left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass">
+                    <h3>Program Pertukaran Mahasiswa Merdeka (PMM) Batch 4</h3>
+                    <h4>Wakil Kepala Suku - UNDIKSHA, Bali</h4>
+                    <p class="timeline-date">Feb 2024 - Jul 2024</p>
+                    <p>Menjadi penghubung komunikasi antara peserta, koordinator, dan tim pelaksana. Menginisiasi lomba antar kelompok dan mengembangkan program podcast mahasiswa.</p>
+                </div>
+            </div>
+            <!-- Pengalaman BEM -->
+            <div class="timeline-item reveal fade-right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass">
+                    <h3>BEM STMIK IKMI Cirebon</h3>
+                    <h4>Presiden Mahasiswa</h4>
+                    <p class="timeline-date">Mar 2023 - Feb 2024</p>
+                    <p>Memimpin lebih dari 30 pengurus, mengoordinasikan 10 program kerja unggulan, dan mengelola kegiatan kemahasiswaan termasuk PKKMB dengan 350+ mahasiswa baru.</p>
+                </div>
+            </div>
+            <!-- Pengalaman Satgas PPKS -->
+            <div class="timeline-item reveal fade-left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass">
+                    <h3>SATGAS PPKS STMIK IKMI Cirebon</h3>
+                    <h4>Anggota</h4>
+                    <p class="timeline-date">Des 2023 - Mei 2026</p>
+                    <p>Mendukung edukasi pencegahan kekerasan seksual di kampus dan terlibat dalam penyelenggaraan seminar bersama LLDIKTI Wilayah IV.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="timeline-section section-padding">
+        <h2 class="section-title reveal fade-up">My <span class="gradient-text">Education</span></h2>
+        <div class="timeline">
+            <!-- Pendidikan 1 -->
+            <div class="timeline-item reveal fade-left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass">
+                    <h3>STMIK IKMI Cirebon</h3>
+                    <h4>S1 Teknik Informatika</h4>
+                    <p class="timeline-date">Lulus sebagai Sarjana Teknik Informatika</p>
+                    <p>"Menyelesaikan pendidikan Sarjana Teknik Informatika dengan fokus pada pengembangan perangkat lunak, manajemen basis data, pengembangan web, dan penerapan kecerdasan buatan. Selama masa studi aktif mengikuti berbagai organisasi, pelatihan, dan proyek teknologi untuk mengembangkan kemampuan teknis maupun kepemimpinan."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills section-padding">
+        <h2 class="section-title reveal fade-up">Tech <span class="gradient-text">Skills</span></h2>
+        <div class="skills-grid">
+            <!-- Skill 1 -->
+            <div class="skill-card glass reveal fade-up">
+                <i class="fab fa-html5"></i>
+                <div class="skill-info">
+                    <h4>HTML & CSS</h4>
+                    <div class="progress-bg"><div class="progress-bar" data-width="90%"></div></div>
+                </div>
+            </div>
+            <!-- Skill 2 -->
+            <div class="skill-card glass reveal fade-up">
+                <i class="fab fa-js"></i>
+                <div class="skill-info">
+                    <h4>JavaScript</h4>
+                    <div class="progress-bg"><div class="progress-bar" data-width="80%"></div></div>
+                </div>
+            </div>
+            <!-- Skill 3 -->
+            <div class="skill-card glass reveal fade-up">
+                <i class="fab fa-python"></i>
+                <div class="skill-info">
+                    <h4>Python & ML</h4>
+                    <div class="progress-bg"><div class="progress-bar" data-width="85%"></div></div>
+                </div>
+            </div>
+            <!-- Skill 4 -->
+            <div class="skill-card glass reveal fade-up">
+                <i class="fas fa-database"></i>
+                <div class="skill-info">
+                    <h4>MySQL</h4>
+                    <div class="progress-bg"><div class="progress-bar" data-width="75%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <h2 class="section-title reveal fade-up">My <span class="gradient-text">Projects</span></h2>
+        <div class="filter-btns reveal fade-up">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Website</button>
+            <button class="filter-btn" data-filter="ml">Machine Learning</button>
+        </div>
+        <div class="projects-grid">
+            <!-- Project 1 (Klasifikasi Penyakit Jeruk) -->
+            <div class="project-card glass reveal fade-up" data-category="ml">
+                <div class="project-img">
+                    <img src="assets/images/klasifikasi-jeruk.jpg" alt="Klasifikasi Jeruk">
+                </div>
+                <div class="project-content">
+                    <h3>Klasifikasi Penyakit Jeruk</h3>
+                    <p>Membangun model Deep Learning untuk mengklasifikasi penyakit pada daun jeruk dengan menerapkan teknik sampling guna mengatasi masalah ketidakseimbangan dataset (imbalanced data).</p>
+                    <div class="tech-stack">
+                        <span>Python</span><span>TensorFlow</span><span>OpenCV</span>
+                    </div>
+                    <!-- Tautan GitHub telah ditambahkan di sini -->
+                    <a href="https://github.com/Aryagunawan26/Klasifikasi-Penyakit-Jeruk-Deep-Learning" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">GitHub <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <!-- Project 2: Aplikasi Pembayaran SPP (PHP) -->
+            <div class="project-card glass reveal fade-up" data-category="web">
+                <div class="project-img">
+                    <img src="assets/images/screenshot-spp.jpg" alt="Aplikasi Pembayaran SPP">
+                </div>
+                <div class="project-content">
+                    <h3>Sistem Informasi Pembayaran SPP</h3>
+                    <p>Aplikasi berbasis web untuk mengelola, mencatat, dan merekap data pembayaran SPP secara efisien.</p>
+                    <div class="tech-stack">
+                        <span>PHP</span><span>MySQL</span><span>Web</span>
+                    </div>
+                    <a href="https://pembayaransppsr.page.gd/login.php" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates section-padding">
+        <h2 class="section-title reveal fade-up">My <span class="gradient-text">Certificates</span></h2>
+        <div class="certificates-grid">
+            <!-- Sertifikat 1 -->
+            <div class="cert-card glass reveal fade-up" onclick="openModal('assets/certificates/cert-dicoding-web.jpg')">
+                <div class="cert-img">
+                    <img src="assets/certificates/cert-dicoding-web.jpg" alt="Sertifikat Dicoding Web">
+                </div>
+                <div class="cert-info">
+                    <h3>Belajar Dasar Pemograman Javascript</h3>
+                    <p>Dicoding Indonesia (2025)</p>
+                </div>
+            </div>
+            <!-- Sertifikat 2 -->
+            <div class="cert-card glass reveal fade-up" onclick="openModal('assets/certificates/cert-vsga.jpg')">
+                <div class="cert-img">
+                    <img src="assets/certificates/cert-vsga.jpg" alt="Sertifikat VSGA">
+                </div>
+                <div class="cert-info">
+                    <h3>Junior Web Development</h3>
+                    <p>VSGA Digital Talent Scholarship (2022)</p>
+                </div>
+            </div>
+            <!-- Sertifikat 3 -->
+            <div class="cert-card glass reveal fade-up" onclick="openModal('assets/certificates/cert-data.jpg')">
+                <div class="cert-img">
+                    <img src="assets/certificates/cert-data.jpg" alt="Sertifikat Manajemen Data">
+                </div>
+                <div class="cert-info">
+                    <h3>Belajar Dasar Pemograman Web</h3>
+                    <p>Dicoding Indonesia (2025)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal untuk Memperbesar Gambar Sertifikat -->
+    <div id="certModal" class="modal" onclick="closeModal()">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="imgModal">
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <h2 class="section-title reveal fade-up">Get In <span class="gradient-text">Touch</span></h2>
+        <div class="contact-container">
+            <div class="contact-info glass reveal fade-right">
+                <h3>Mari Berkolaborasi!</h3>
+                <p>Saya terbuka untuk peluang kerja, proyek freelance, atau sekadar diskusi teknologi.</p>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>aryagunawan605@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Cirebon, Indonesia</span>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/aryagunawan26/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">linkedin.com/in/aryagunawan26</a>
+                </div>
+            </div>
+            <form id="contact-form" class="contact-form glass reveal fade-left">
+                <div class="input-group">
+                    <input type="text" id="name" required placeholder="Nama Anda">
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required placeholder="Email Anda">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="subject" required placeholder="Subjek">
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="5" required placeholder="Pesan Anda"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary ripple">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content glass">
+            <p>&copy; 2026 Arya Gunawan. All Rights Reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/Aryagunawan26" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/aryagunawan26/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <a href="#home" id="back-to-top"><i class="fas fa-arrow-up"></i></a>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
