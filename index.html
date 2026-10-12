@@ -223,14 +223,16 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
+<!-- Projects Section -->
     <section id="projects" class="projects section-padding">
         <h2 class="section-title reveal fade-up">My <span class="gradient-text">Projects</span></h2>
+        
         <div class="filter-btns reveal fade-up">
             <button class="filter-btn active" data-filter="all">All</button>
             <button class="filter-btn" data-filter="web">Website</button>
             <button class="filter-btn" data-filter="ml">Machine Learning</button>
         </div>
+
         <div class="projects-grid">
             <!-- Project 1 (Klasifikasi Penyakit Jeruk) -->
             <div class="project-card glass reveal fade-up" data-category="ml">
@@ -243,10 +245,10 @@
                     <div class="tech-stack">
                         <span>Python</span><span>TensorFlow</span><span>OpenCV</span>
                     </div>
-                    <!-- Tautan GitHub telah ditambahkan di sini -->
                     <a href="https://github.com/Aryagunawan26/Klasifikasi-Penyakit-Jeruk-Deep-Learning" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">GitHub <i class="fab fa-github"></i></a>
                 </div>
             </div>
+
             <!-- Project 2: Aplikasi Pembayaran SPP (PHP) -->
             <div class="project-card glass reveal fade-up" data-category="web">
                 <div class="project-img">
@@ -261,9 +263,46 @@
                     <a href="https://pembayaransppsr.page.gd/login.php" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Live Demo <i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
+
+            <!-- Project 3: Portal Pengaduan Sekolah -->
+            <div class="project-card glass reveal fade-up" data-category="web">
+                <div class="project-img">
+                    <img src="assets/images/Laporan.jpg" alt="Portal Pengaduan Sekolah">
+                </div>
+                <div class="project-content">
+                    <h3>Portal Pengaduan Sekolah</h3>
+                    <p>Aplikasi web interaktif untuk memfasilitasi laporan atau pengaduan secara anonim dengan integrasi pengiriman notifikasi otomatis.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span><span>CSS</span><span>JS</span><span>Vercel</span>
+                    </div>
+                    <a href="https://portal-pengaduan-sekolah.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 4: Website Yayasan Siti Chodidjah (Disembunyikan di awal) -->
+            <div class="project-card glass reveal fade-up hidden-project" data-category="web">
+                <div class="project-img">
+                    <img src="assets/images/webyscc.jpg" alt="Website Yayasan Siti Chodidjah">
+                </div>
+                <div class="project-content">
+                    <h3>Website Yayasan Siti Chodidjah</h3>
+                    <p>Portal informasi digital dan profil resmi untuk Yayasan Siti Chodidjah (Al-Azhar Hamka) yang dirancang secara responsif dan modern.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span><span>CSS</span><span>JS</span><span>Vercel</span>
+                    </div>
+                    <a href="https://yscc-al-azhar-hamka.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div> <!-- PENUTUP PROJECTS-GRID (Jangan dihapus) -->
+
+        <!-- Tombol Show More DI LUAR Grid -->
+        <div id="show-more-container" style="text-align: center; margin-top: 50px;">
+            <button id="show-more-btn" class="btn btn-outline ripple">
+                Show More <i class="fas fa-chevron-down"></i>
+            </button>
         </div>
     </section>
-
+    
     <!-- Certificates Section -->
     <section id="certificates" class="certificates section-padding">
         <h2 class="section-title reveal fade-up">My <span class="gradient-text">Certificates</span></h2>

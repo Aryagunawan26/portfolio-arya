@@ -569,6 +569,10 @@ footer { text-align: center; padding: 20px; position: relative; }
 }
 .close-modal:hover { color: var(--primary); }
 
+.hidden-project {
+    display: none !important;
+}
+
 /* ==========================================
    11. ANIMATIONS & MOBILE-FRIENDLY RESPONSIVE
    ========================================== */

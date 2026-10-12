@@ -158,3 +158,27 @@ function closeModal() {
     const modal = document.getElementById("certModal");
     modal.style.display = "none";
 }
+
+/* ==========================================
+   TOMBOL SHOW MORE PROJECTS
+   ========================================== */
+const showMoreBtn = document.getElementById('show-more-btn');
+const hiddenProjects = document.querySelectorAll('.hidden-project');
+const showMoreContainer = document.getElementById('show-more-container');
+
+if (showMoreBtn) {
+    showMoreBtn.addEventListener('click', function() {
+        // Tampilkan semua proyek yang tadinya disembunyikan
+        hiddenProjects.forEach(project => {
+            project.classList.remove('hidden-project');
+            
+            // Panggil ulang efek muncul perlahan (fade-up)
+            setTimeout(() => {
+                project.classList.add('active');
+            }, 50);
+        });
+        
+        // Sembunyikan tombol "Show More" karena semua proyek sudah tampil
+        showMoreContainer.style.display = 'none';
+    });
+}
